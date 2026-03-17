@@ -1,6 +1,11 @@
+import GameList from "./GameList"
+
 function Home () {
     return (
-        <div> Hi!!!</div>
+        <>
+            <div> Hi!!! 여기가 메인</div>
+            <GameList />
+        </>
     )
 }
 
